@@ -13,7 +13,8 @@ st.set_page_config(
 
 st.write('# Análise exploratória da previsão de renda')
 
-renda = pd.read_csv('./input/previsao_de_renda.csv')
+renda = pd.read_csv("C:/Users/jaime/Downloads/Projeto02/Projeto02---Previsao_renda-main/input/previsao_de_renda.csv")
+
 
 #plots
 fig, ax = plt.subplots(8,1,figsize=(10,70))
